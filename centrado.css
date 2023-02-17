@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+    
+}
+
+header,section, footer, aside, nav,article,hgroup {
+
+    display: block;
+}
+
+.left {
+    margin: left;
+    text-align: center;
+}
+
+.logo {
+    margin: left;
+    text-align: left;
+
+}
+ nav ,ul, li{
+    background: #e3e7f1 ;
+    padding:  5px 15px;
+    text-align: right;
+
+}
+
+nav li {
+    list-style: none;
+    padding: 5px;
+    font: bold 14px verdadana;
+    display: inline-block;
+}
+
+h1 ,h2,p{
+    text-align: center;
+    
+}
+
+audio {
+    text-align: center;
+}
+
+.titulo2 ,table{
+    color: rgb(150, 111, 38);
+    margin: auto;
+
+}
+
+.disvst ,div img  {
+    width: 250px;
+    height: 300px;
+    padding: 50px;
+    background-color: antiquewhite;
+}
+
+.Dimg, table{
+    width: 250px;
+    height: 300px;
+    padding: 15px;
+    background-color: rgb(241, 231, 219);
+}
+ 
+.unic  {
+    width: 1500px;
+    height: 1000px;
+}
+
+.down{
+    width: 1500px;
+    height: 1000px;
+}
+
+
+
+
+.contenedor {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.texto-encima{
+    position: absolute;
+    text-align: center;
+    top: 10px;
+    left: 10px;
+}
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+footer ul li a{
+    text-align: center;
+}
+
+footer ul  li{
+    display: inline;
+   
+
+}
